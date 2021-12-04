@@ -7,7 +7,7 @@ class CustomForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: 'T',
+      value: '',
       isPalindrome: false,
       renderText: "No Palindrome Detected",
     }

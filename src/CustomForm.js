@@ -24,7 +24,7 @@ handleChange(e){
   handleSubmit(e) {
     e.preventDefault();
       this.setState({renderText: false})
-      axios.post('http://localhost:3001/palindrome', this.state)
+      axios.post('https://secret-sierra-65628.herokuapp.com/palindrome', this.state)
         .then(res => {
           if(res.data.isPalindrome){
             this.setState({renderText: "Oh Snap! This is a palindrome"})

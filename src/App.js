@@ -1,7 +1,6 @@
 import './App.css';
 import { Navbar, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import axios from 'axios';
 import React from 'react';
 import CustomForm from './CustomForm';
 
